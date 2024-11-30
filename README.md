@@ -3,16 +3,20 @@ Data Engineering. Exploring Apache Airflow's integration with MySQL. Demonstrate
 
 To create and activate virtual environment and install necessary packages perform the next commands:
 
-```python3.11 -m venv venv
+```
+python3.11 -m venv venv
 
 source venv/bin/activate
 
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 
 To run Apache Airflow UI in docker container:
 
-```docker compose up```
+```
+docker compose up
+```
 
 This command will serve Apache Airflow on localhost:8080. You can login with the name "airflow" and password "airflow". You should filter to find hw_07_mysql_oleksandra.
 
